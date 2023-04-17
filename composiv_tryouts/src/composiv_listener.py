@@ -5,7 +5,7 @@ from std_msgs.msg import String     # This is the type of message
 
 
 def callback(data):
-    rospy.loginfo(rospy.get_caller_id() + " I heard %s ", data.data) 
+    rospy.loginfo(rospy.get_caller_id() + " I heard you, your message is %s ", data.data) 
     
 def listener():
 
