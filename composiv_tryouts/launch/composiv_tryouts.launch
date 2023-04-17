@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="composiv_tryouts" type="composiv_talker.py" name="talker" output="screen">  </node>
+    <node pkg="composiv_tryouts" type="composiv_listener.py" name="listener" output="screen">  </node>
+</launch>
