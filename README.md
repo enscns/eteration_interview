@@ -48,11 +48,11 @@ In this study, the following steps are applied for the communication of two node
 
 •	A ROS package named composiv_tryouts was created. 
 
-•	The node 'talker' that will publish is created in the composive_talker.py file inside this package. This node publishes a message of type std_msgs.msg.String in a topic named 'chatter'. 
+•	The node 'talker' that will publish is created in the [composive_talker.py](https://github.com/enscns/eteration_interview/blob/feature/enes_cansu_16042023/composiv_tryouts/src/composiv_talker.py) file inside this package. This node publishes a message of type std_msgs.msg.String in a topic named 'chatter'. 
 
-•	Then, a node named 'listener' was created in composive_listener.py and this node subscribed to the 'chatter' topic. The 'listener' node notifies users that it has subscribed to the 'chatter' topic with the 'callback' function. 
+•	Then, a node named 'listener' was created in [composive_listener.py](https://github.com/enscns/eteration_interview/blob/feature/enes_cansu_16042023/composiv_tryouts/src/composiv_listener.py) and this node subscribed to the 'chatter' topic. The 'listener' node notifies users that it has subscribed to the 'chatter' topic with the 'callback' function. 
 
-•	A launch file named composive_tryouts.launch has been created to run these two files together. When this file is run, the communication between the two nodes is provided through the 'chatter' topic.
+•	A launch file named [composive_tryouts.launch](https://github.com/enscns/eteration_interview/blob/feature/enes_cansu_16042023/composiv_tryouts/launch/composiv_tryouts.launch) has been created to run these two files together. When this file is run, the communication between the two nodes is provided through the 'chatter' topic.
 
 Messages coming to the terminal screen when the launch file is run are shown in figure 1.
 
